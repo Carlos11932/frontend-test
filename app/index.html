@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es" ng-app="myApp">
+<head>
+  <meta charset="utf-8">
+  <title>My AngularJS App</title>
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <ul class="menu">
+    <li><a href="#!/cities">Ciudades</a></li>
+    <li><a href="#!/map">Mapa</a></li>
+  </ul>
+
+  <div ng-view></div>
+
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="app.js"></script>
+  <script src="components/listView/listView.module.js"></script>
+  <script src="components/mapView/mapView.module.js"></script>
+  
+  <script src="components/listView/listView.controller.js"></script>
+  <script src="components/listView/listView.component.js"></script>
+  <script src="components/mapView/mapView.controller.js"></script>
+  <script src="components/mapView/mapView.component.js"></script>
+</body>
+</html>
