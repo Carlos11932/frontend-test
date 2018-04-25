@@ -1,3 +1,10 @@
 <h1>Ciudades</h1>
 
-<city-box ng-repeat="city in $ctrl.cities" data-city="city"></city-box>
+<div class="">
+<button ng-click="$ctrl.toggleDropDown()">Filtro</button>
+</div>
+
+
+<city-box ng-repeat="city in $ctrl.cities | limitTo:4" data-city="city"></city-box>
+
+<bottom-dropdown data-options="$ctrl.optionsDropdown" data-title="Países"></bottom-dropdown>

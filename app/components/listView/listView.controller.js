@@ -12,8 +12,14 @@ module.controller('listViewController', ['listViewService', function(listViewSer
       });
   }
 
+  self.toggleDropDown = function(){
+    self.optionsDropdown.opened = !self.optionsDropdown.opened;
+  }
 
   self.$onInit = function(){
+    self.optionsDropdown = {
+      opened: false
+    };
     self.cities = [];
     getData();
   }
