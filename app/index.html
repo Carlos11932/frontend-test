@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>My AngularJS App</title>
-  <link rel="stylesheet" href="app.css">
+  <link rel="stylesheet/less" type="text/css" href="styles.less" />
 </head>
 <body>
   <ul class="menu">
@@ -13,11 +13,15 @@
 
   <div ng-view></div>
 
+
+  <script type="text/javascript" src="bower_components/less/dist/less.min.js"></script>
   <script src="bower_components/angular/angular.js"></script>
+  <script type="text/javascript" src="bower_components/angular.less/angular.less.js"></script>
   <script src="bower_components/angular-route/angular-route.js"></script>
   <script src="app.js"></script>
   <script src="components/listView/listView.module.js"></script>
   <script src="components/mapView/mapView.module.js"></script>
+  <script src="components/bottomDropdown/bottomDropdown.module.js"></script>
 
   <script src="components/listView/listView.controller.js"></script>
   <script src="components/listView/listView.component.js"></script>
@@ -26,5 +30,7 @@
   <script src="components/listView/cityBox/cityBox.component.js"></script>
   <script src="components/mapView/mapView.controller.js"></script>
   <script src="components/mapView/mapView.component.js"></script>
+  <script src="components/bottomDropdown/bottomDropdown.controller.js"></script>
+  <script src="components/bottomDropdown/bottomDropdown.component.js"></script>
 </body>
 </html>
