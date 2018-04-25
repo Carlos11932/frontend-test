@@ -1,4 +1,4 @@
-# Minube - Frontend Test
+# Minube - Frontend Test - Carlos Benito
 
 ## Before you begin
 ### Purpose of the test
