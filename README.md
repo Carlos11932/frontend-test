@@ -1,5 +1,8 @@
 # Minube - Frontend Test - Carlos Benito
 
+You will need to execute the following comands in your cmd:
+  - npm install
+  - npm start
 ## Before you begin
 ### Purpose of the test
 The purpose of the test is to evaluate a candidate’s technical abilities.
